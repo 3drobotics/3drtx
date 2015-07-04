@@ -1069,43 +1069,43 @@ stamp_header:
 	@echo "//Automatically generated file (Makefile) - do not edit" > stamp-opentx.h
 	@echo "#define DATE_STR \"`date +%Y-%m-%d | tr -d '\r\n'`\"" >> stamp-opentx.h
 	@echo "#define TIME_STR \"`date +%H:%M:%S | tr -d '\r\n'`\"" >> stamp-opentx.h
-	@echo "#define SVN_STR  \"opentx-r$(SVNREV)\"" >> stamp-opentx.h
+	@echo "#define SVN_STR  \"3drtx-v$(SVNREV)\"" >> stamp-opentx.h
 	@cat stamp-opentx.h
 
 stock-stamp:
 	@echo "#define DATE_STR \"`date +%Y-%m-%d`\"" > stamp-opentx-stock.txt
 	@echo "#define TIME_STR \"`date +%H:%M:%S`\"" >> stamp-opentx-stock.txt
-	@echo "#define SVN_VERS \"opentx-r$(SVNREV)\"" >> stamp-opentx-stock.txt
+	@echo "#define SVN_VERS \"3drtx-v$(SVNREV)\"" >> stamp-opentx-stock.txt
 	@cat stamp-opentx-stock.txt
 
 stock128-stamp:
 	@echo "#define DATE_STR \"`date +%Y-%m-%d`\"" > stamp-opentx-stock128.txt
 	@echo "#define TIME_STR \"`date +%H:%M:%S`\"" >> stamp-opentx-stock128.txt
-	@echo "#define SVN_VERS \"opentx-r$(SVNREV)\"" >> stamp-opentx-stock128.txt
+	@echo "#define SVN_VERS \"3drtx-v$(SVNREV)\"" >> stamp-opentx-stock128.txt
 	@cat stamp-opentx-stock128.txt
 
 stock2561-stamp:
 	@echo "#define DATE_STR \"`date +%Y-%m-%d`\"" > stamp-opentx-stock2561.txt
 	@echo "#define TIME_STR \"`date +%H:%M:%S`\"" >> stamp-opentx-stock2561.txt
-	@echo "#define SVN_VERS \"opentx-r$(SVNREV)\"" >> stamp-opentx-stock2561.txt
+	@echo "#define SVN_VERS \"3drtx-v$(SVNREV)\"" >> stamp-opentx-stock2561.txt
 	@cat stamp-opentx-stock2561.txt
 	
 v4-stamp:
 	@echo "#define DATE_STR \"`date +%Y-%m-%d`\"" > stamp-opentx-v4.txt
 	@echo "#define TIME_STR \"`date +%H:%M:%S`\"" >> stamp-opentx-v4.txt
-	@echo "#define SVN_VERS \"opentx-r$(SVNREV)\"" >> stamp-opentx-v4.txt
+	@echo "#define SVN_VERS \"3drtx-v$(SVNREV)\"" >> stamp-opentx-v4.txt
 	@cat stamp-opentx-v4.txt
 
 arm-stamp:
 	@echo "#define DATE_STR \"`date +%Y-%m-%d`\"" > stamp-opentx-arm.txt
 	@echo "#define TIME_STR \"`date +%H:%M:%S`\"" >> stamp-opentx-arm.txt
-	@echo "#define SVN_VERS \"opentx-r$(SVNREV)\"" >> stamp-opentx-arm.txt
+	@echo "#define SVN_VERS \"3drtx-v$(SVNREV)\"" >> stamp-opentx-arm.txt
 	@cat stamp-opentx-arm.txt
 
 taranis-stamp:
 	@echo "#define DATE_STR \"`date +%Y-%m-%d`\"" > stamp-opentx-taranis.txt
 	@echo "#define TIME_STR \"`date +%H:%M:%S`\"" >> stamp-opentx-taranis.txt
-	@echo "#define SVN_VERS \"opentx-r$(SVNREV)\"" >> stamp-opentx-taranis.txt
+	@echo "#define SVN_VERS \"3drtx-v$(SVNREV)\"" >> stamp-opentx-taranis.txt
 	@cat stamp-opentx-taranis.txt
 
 translations/se.h: translations/cz.h.txt translations/de.h.txt translations/es.h.txt translations/fr.h.txt translations/it.h.txt translations/pt.h.txt translations/se.h.txt 
