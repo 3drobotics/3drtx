@@ -1,2 +1,2 @@
-# opentx
-OpenTX implementation on IRIS+
+# 3DR TX
+3DRTX implementation on IRIS+
